@@ -1,0 +1,53 @@
+/* For mobile phones: */
+/* Mobile First, mobile styles first */
+
+:local(.container) {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.5) !important; */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    :local(.container) {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* For tablets: */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    :local(.container) {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* For desktop: */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    :local(.container) {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    :local(.container) {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    :local(.container) {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Resolutions */
+/* @media only screen and (min-resolution: 192dpi) {} */
